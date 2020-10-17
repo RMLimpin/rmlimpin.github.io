@@ -10,130 +10,186 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+	<script>
+$(document).ready(function(){
+  $('[data-toggle="tooltip"]').tooltip();   
+});
+</script>
 </head>
 <body>
 
-<div class="hero-image">
+<div class="hero-image" style="background-color: #F0F0F0 ">
   	<div class="hero-text">
   		<img class="rounded-circle hero-profile" src="assets/imgs/resume_cropped.jpg" alt="resume_rmlimpin">
 	    <h1 style="font-size:50px">RONEL M. LIMPIN</h1>
 	    <p>Worked as a technical support for 2 years. Now back to where it all began.. coding!</p>
 	    <div style="padding: 10px">
-		    <a href="https://www.linkedin.com/in/rmlimpin/" target="_blank"><i class="fa fa-linkedin-square fa-3x"></i></a>&nbsp;&nbsp;
-		    <a href="https://github.com/RMLimpin" target="_blank"><i class="fa fa-github-square fa-3x"></i></a>&nbsp;&nbsp;
-		    <a href="mailto:ronel.limpin@gmail.com" target="_blank"><i class="fa fa-envelope fa-3x"></i></a>&nbsp;&nbsp;
-		    <a href="https://drive.google.com/file/d/1rxlnk8BsuKKioocnrM00Pr1sIr9iFSgO/view?usp=sharing" target="_blank"><i class="fa fa-arrow-circle-down fa-3x"></i></a>
+		    <a href="https://www.linkedin.com/in/rmlimpin/" target="_blank" data-toggle="tooltip" data-placement="bottom" title="LinkedIn"><i class="fa fa-linkedin-square fa-3x"></i></a>&nbsp;&nbsp;
+		    <a href="https://github.com/RMLimpin" target="_blank" data-toggle="tooltip" data-placement="bottom" title="GitHub"><i class="fa fa-github-square fa-3x"></i></a>&nbsp;&nbsp;
+		    <a href="mailto:ronel.limpin@gmail.com" target="_blank" data-toggle="tooltip" data-placement="bottom" title="Send me an email"><i class="fa fa-envelope fa-3x"></i></a>&nbsp;&nbsp;
+		    <a href="https://drive.google.com/file/d/1rxlnk8BsuKKioocnrM00Pr1sIr9iFSgO/view?usp=sharing" target="_blank" data-toggle="tooltip" data-placement="bottom" title="Download my resume"><i class="fa fa-arrow-circle-down fa-3x"></i></a>
 		</div>
   	</div>
 </div>
-<div class="container accent">
-	<h1 class="center"> SKILLS </h1>
-	<div class="row">
-		<div class="col-md-6">
-			<h2>TECHNICAL SKILLS</h2>
-			<h4>Computer Skills</h4>
-			<ul>
-				<li>Advance computer knowledge</li>
-				<li>Installing, configuring, and fixing basic problems for hardware, software, and network</li>
-				<li>solid work background as a technical support</li>
-				<li>average typing speed of 60 wpm</li>
-			</ul>
-			<h4>MS Office</h4>
-			<ul>
-				<li>proficiency in Word, PowerPoint, Excel,
-			Access, Visio</li>
-			</ul>
-			<h4>Media Editing tools</h4>
-			<ul>
-				<li>Adobe Photoshop, GIMP, Filmora</li>
-			</ul>
-		</div>
-		<div class="col-md-6">
-			<h2>PROGRAMMING SKILLS</h2>
-			<h4>C# Programming</h4>
-			<ul><li>
-				Advance knowledge in C# programming and Windows forms
-			</li></ul>
-			<h4>HTML / CSS (front-end)</h4>
-			<ul><li>
-				HTML/CSS; including frameworks and toolkits like Bootstrap and FontAwesome
-			</li></ul>
-			<h4>PHP (back-end)</h4>
-			<ul><li>
-				Familiarity on CodeIgniter framework and MVC pattern; Javascript & jQuery; WordPress
-			</li></ul>
-			<h4>Database Management</h4>
-			<ul><li>
-				mySQL, Microsoft SQL Server
-			</li></ul>
-			<h4>Programming / IT background in</h4>
-			<ul><li>
-				ASP.net, Java, Android, Cisco networking
-			</li></ul>
+
+<div class="container">
+	<div id="sect-aboutme" class="accent">
+		<div class="container">
+			<h1 class="center"> ABOUT ME </h1>
+			<div class="row">
+				<div class="col-md-4">
+					Not "the best" coder but good at finding solutions and making ideas into a reality by means of coding and unlimited resources on the Internet.
+				</div>
+				<div class="col-md-4">
+
+				</div>
+				<div class="col-md-4">
+
+				</div>
+			</div>
+			
 		</div>
 	</div>
-</div>
-	<h1 class="center"> WORK EXPERIENCE </h1>
-		<div id="section-work" class="accent">
-			<div class="container">
+</div><hr>
+<div class="container">
+	<div id="sect-skills">
+		<h1 class="center"> SKILLS </h1>
+		<div class="row">
+			<div class="col-md-6">
+				<h2>TECHNICAL SKILLS</h2>
+				<h4>Computer Skills</h4>
+				<ul>
+					<li>Advance computer knowledge</li>
+					<li>Installing, configuring, and fixing basic problems for hardware, software, and network</li>
+					<li>solid work background as a technical support</li>
+					<li>average typing speed of 60 wpm</li>
+				</ul>
+				<h4>MS Office</h4>
+				<ul>
+					<li>proficiency in Word, PowerPoint, Excel,
+				Access, Visio</li>
+				</ul>
+				<h4>Media Editing tools</h4>
+				<ul>
+					<li>Adobe Photoshop, GIMP, Filmora</li>
+				</ul>
+			</div>
+			<div class="col-md-6">
+				<h2>PROGRAMMING SKILLS</h2>
+				<h4>C# Programming</h4>
+				<ul><li>
+					Advance knowledge in C# programming and Windows forms
+				</li></ul>
+				<h4>HTML / CSS (front-end)</h4>
+				<ul><li>
+					HTML/CSS; including frameworks and toolkits like Bootstrap and FontAwesome
+				</li></ul>
+				<h4>PHP (back-end)</h4>
+				<ul><li>
+					Familiarity on CodeIgniter framework and MVC pattern; Javascript & jQuery; WordPress
+				</li></ul>
+				<h4>Database Management</h4>
+				<ul><li>
+					mySQL, Microsoft SQL Server
+				</li></ul>
+				<h4>Programming / IT background in</h4>
+				<ul><li>
+					ASP.net, Java, Android, Cisco networking
+				</li></ul>
+			</div>
+		</div>
+	</div>
+</div><hr>
+
+<div class="container">
+	<center><h1>EXPERIENCES</h1></center>
+	<div class="row">
+		<div class="col-md-5" style="border-right: 1px solid #eee;">
+			<div id="section-educ">
+				<div class="container">
+					<center><h3> EDUCATION </h3></center>
+					<ul class="timeline"><li>
+						2011-2018 
+						<div class="timelinebox">
+							<h4>College · BS Information Technology</h4>
+							<a href="https://mcl.edu.ph/Announcement/Default.aspx?AncID=20170725091931193&fbclid=IwAR2iy7lYa0ZpKY8evlcGEDhZPkZnUD9e9gD9x3oHN7jwAWQxUA5gG7zUN38" target="_blank"> <b>Malayan Colleges Laguna <i class="fa fa-external-link"></i></a></b>
+							<ul>
+							<li>specialization in Network Administration</li>
+							</ul>
+						</div>
+					</li><li>
+						2007-2011 
+						<div class="timelinebox">
+							<h4>High School</h4>
+							<b>Maranatha Christian Academy</b>
+							<ul>
+							<li>Participated in various English and Spelling quiz bee
+							competitions inside and outside the school.</li>
+							</ul>
+						</div>
+					</li></ul>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-7">
+			<div id="section-work">
+				<center><h3> WORK </h3></center>
 				<ul class="timeline"><li>
 					Jun 2018 - Oct 2020
-					<h4>Customer Service Associate</h4>
-					<i class="fa fa-building"></i> <b>Concentrix Alabang</b>
-					<ul>
-						<li>Handled sales and technical concerns for major American
-					telecommunication companies under different accounts.</li>
-					</ul>
+					<div class="timelinebox">
+						<h4>Customer Service Associate</h4>
+						<i class="fa fa-building"></i> <b>Concentrix Alabang</b>
+						<ul>
+							<li>Handled sales and technical concerns for major American
+						telecommunication companies under different accounts.</li>
+						</ul>
+					</div>
 				</li><li>
 					Jun 2017 - Mar 2018
-					<h4>Full-stack Web Developer</h4>
-					<i class="fa fa-laptop"></i> <b>Capstone Project (thesis) </b>
-					<ul>
-						<li>Led a group to develop a web portal in CodeIgniter
-					framework, named ePRACTICUM, to help manage the
-					practicum subject for Malayan Colleges Laguna.</li>
-						<li>Also contributed on the development of its mobile
-					counterpart for Android platform.</li>
-					</ul>
+					<div class="timelinebox">
+						<h4>Full-stack Web Developer</h4>
+						<i class="fa fa-laptop"></i> <b>Capstone Project (thesis) </b>
+						<ul>
+							<li>Led a group to develop a web portal in CodeIgniter
+						framework, named ePRACTICUM, to help manage the
+						practicum subject for Malayan Colleges Laguna.</li>
+							<li>Also contributed on the development of its mobile
+						counterpart for Android platform.</li>
+						</ul>
+					</div>
 				</li><li>
 					Feb 2017 - Jun 2017
-					<h4>Front-end Web Developer</h4>
-					<i class="fa fa-laptop"></i> <b>Binan City Hall (internship)</b>
-					<ul>
-						<li>Developed a web portal, together with a group, for CSWD
-					Binan to manage all beneficiary records, including
-					processes from ID registration to data entries.</li>
-						<li>First introduced to web development, design and backend
-					frameworks, and version control tools like Git.</li>
-					</ul>
+					<div class="timelinebox">
+						<h4>Front-end Web Developer</h4>
+						<i class="fa fa-laptop"></i> <b>Binan City Hall (internship)</b>
+						<ul>
+							<li>Developed a web portal, together with a group, for CSWD
+						Binan to manage all beneficiary records, including
+						processes from ID registration to data entries.</li>
+							<li>First introduced to web development, design and backend
+						frameworks, and version control tools like Git.</li>
+						</ul>
+					</div>
 				</li></ul>
 			</div>
 		</div>
-	<h1 class="center"> EDUCATION </h1>
-		<div id="section-educ">
-			<div class="container">
-				<ul class="timeline"><li>
-					2011-2018 
-					<h3>College · BS Information Technology</h3>
-					Malayan Colleges Laguna
-					<ul>
-					<li>specialization in Network Administration</li>
-					</ul>
-				</li><li>
-					2007-2011 
-					<h3>High School</h3>
-					Maranatha Christian Academy
-					<ul>
-					<li>Participated in various English and Spelling quiz bee
-					competitions inside and outside the school.</li>
-					</ul>
-				</li></ul>
-			</div>
-		</div>
-	<h1 class="center"> MAJOR CERTIFICATIONS</h1>
-		<div id="section-cert">
+	</div>
+</div><hr>
 
-		</div>
+	<div id="section-portfolio">
+		<h1 class="center"> PORTFOLIO</h2>
+		
+	</div>
+</div>
 
+
+
+
+<footer>
+	<div class="container">
+		Portfolio was made using Bootstrap
+	</div>
+</footer>
 </body>
 </html>

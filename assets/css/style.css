@@ -3,6 +3,9 @@ body, html {
   height: 100%;
   margin: 0;
 }
+footer {
+  background-color: #a7a3a3;
+}
 .center {
 	text-align: center;
 }
@@ -11,7 +14,7 @@ body, html {
 } 
 .hero-image {
   background-color: #F0F0F0 !important;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../imgs/scene1.jpg');
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../imgs/scene1.jpg');
   height: 80%;
   background-position: center;
   background-repeat: no-repeat;
@@ -27,10 +30,10 @@ body, html {
   transform: translate(-50%, -50%);
   color: #fff;
 }
-.accent h4 { color: #0070c0; }
-#section-work { 
-	padding: 10px;
-	background-color: #d0cece; }
+.accent h4 { color: #0070c0; margin: 0 }
+h1 {
+  font-family: Impact;
+}
 ul { padding-left: 20px }
 ul.timeline {
     list-style-type: none;
@@ -60,4 +63,11 @@ ul.timeline > li:before {
     width: 20px;
     height: 20px;
     z-index: 400;
+}
+.timelinebox {
+  background: #18bcfb; /* fallback */
+  width: fit-content;
+  color: #fff;
+  padding: 15px;
+  border-radius: 10px;
 }
