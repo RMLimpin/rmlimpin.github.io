@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>Ronel Limpin</title>
+	<title>Ronel Limpin - Interactive CV</title>
+	<link rel="icon" href="demo_icon.gif" type="image/gif" sizes="16x16">
+	<meta name="description" content="Ronel Limpin's interactive CV. Check all of his professional details here in this website. Alumnus of Malayan Colleges Laguna, with 2 year working experience as a technical support representative. Now back to where it all began.. coding! ">
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="assets/css/style.css">
@@ -10,19 +12,34 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-
-	<script>
-$(document).ready(function(){
-  $('[data-toggle="tooltip"]').tooltip();   
-});
-</script>
+	<script src="assets/js/scripts.js"></script>
 </head>
 <body>
+
+<header class="header">
+    <nav class="navbar navbar-expand-lg fixed-top py-3">
+        <div class="container"><a href="https://rmlimpin.github.io/" class="navbar-brand">RONEL LIMPIN</a>
+            <button type="button" data-toggle="collapse" data-target="#navbarSupportedContent" class="navbar-toggler navbar-toggler-right"><i class="fa fa-bars"></i></button>
+            
+            <div id="navbarSupportedContent" class="collapse navbar-collapse">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a href="#sect-aboutme" class="nav-link">ABOUT ME</a></li>
+                    <li class="nav-item"><a href="#sect-skills" class="nav-link">SKILLS</a></li>
+                    <li class="nav-item"><a href="#sect-educ" class="nav-link">EXPERIENCES</a></li>
+                    <li class="nav-item"><a href="#sect-portfolio" class="nav-link">PORTFOLIO</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
 
 <div class="hero-image" style="background-color: #F0F0F0 ">
   	<div class="hero-text">
   		<img class="rounded-circle hero-profile" src="assets/imgs/resume_cropped.jpg" alt="resume_rmlimpin">
-	    <h1 style="font-size:50px">RONEL M. LIMPIN</h1>
+	    <h1 style="font-size:50px">
+	    	<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Flag_of_the_Philippines.svg/200px-Flag_of_the_Philippines.svg.png" data-toggle="tooltip" data-placement="bottom" title="from Manila, PH" style="height: 20px; width: 30px;"> 
+	    	RONEL M. LIMPIN
+	    </h1>
 	    <p>Worked as a technical support for 2 years. Now back to where it all began.. coding!</p>
 	    <div style="padding: 10px">
 		    <a href="https://www.linkedin.com/in/rmlimpin/" target="_blank" data-toggle="tooltip" data-placement="bottom" title="LinkedIn"><i class="fa fa-linkedin-square fa-3x"></i></a>&nbsp;&nbsp;
@@ -55,9 +72,14 @@ $(document).ready(function(){
 <div class="container">
 	<div id="sect-skills">
 		<h1 class="center"> SKILLS </h1>
+		<center>
+			Currently learning how to..<br>
+			<kbd>WordPress</kbd> <kbd>Javascript</kbd> <kbd>Angular</kbd> <kbd>React.js</kbd><br>
+			<kbd>node.js</kbd> <kbd>Git Bash</kbd><br><br>
+		</center>
 		<div class="row">
 			<div class="col-md-6">
-				<h2>TECHNICAL SKILLS</h2>
+				<h3>TECHNICAL SKILLS</h3>
 				<h4>Computer Skills</h4>
 				<ul>
 					<li>Advance computer knowledge</li>
@@ -76,7 +98,7 @@ $(document).ready(function(){
 				</ul>
 			</div>
 			<div class="col-md-6">
-				<h2>PROGRAMMING SKILLS</h2>
+				<h3>PROGRAMMING SKILLS</h3>
 				<h4>C# Programming</h4>
 				<ul><li>
 					Advance knowledge in C# programming and Windows forms
@@ -106,9 +128,9 @@ $(document).ready(function(){
 	<center><h1>EXPERIENCES</h1></center>
 	<div class="row">
 		<div class="col-md-5" style="border-right: 1px solid #eee;">
-			<div id="section-educ">
+			<div id="sect-educ">
 				<div class="container">
-					<center><h3> EDUCATION </h3></center>
+					<h3 class="center"> EDUCATION </h3></center>
 					<ul class="timeline"><li>
 						2011-2018 
 						<div class="timelinebox">
@@ -133,8 +155,8 @@ $(document).ready(function(){
 			</div>
 		</div>
 		<div class="col-md-7">
-			<div id="section-work">
-				<center><h3> WORK </h3></center>
+			<div id="sect-work">
+				<h3 class="center"> WORK </h3>
 				<ul class="timeline"><li>
 					Jun 2018 - Oct 2020
 					<div class="timelinebox">
@@ -177,18 +199,77 @@ $(document).ready(function(){
 	</div>
 </div><hr>
 
-	<div id="section-portfolio">
-		<h1 class="center"> PORTFOLIO</h2>
-		
+<div class="container">
+	<div id="sect-portfolio">
+		<h1 class="center"> PORTFOLIO</h1>
+		<center>I have 2 favorite hobbies. Coding and photography. Here are some of my favorite projects:</center>
+		<div class="row">
+			<div class="col-md-6">
+				<h3 class="center">CODING</h3>
+				<small>I can only show screenshots. Most of my projects are either part of my college project or stand-alone so I didn't think of hosting them.</small>
+			</div>
+			<div class="col-md-6">
+				<h3 class="center">PHOTOGRAPHY</h3>
+				<small>To view in higher-resolution, just right click > Open-image in new tab</small>
+				<div class="rowimgs">
+					<div class="columnimgs">
+					    <img src="assets/imgs/scene1.jpg" alt="Baguio City scenery 1" onclick="myFunction(this);">
+					</div>
+					<div class="columnimgs">
+					    <img src="assets/imgs/scene2.jpg" alt="Baguio City scenery 2" onclick="myFunction(this);">
+					</div>
+					<div class="columnimgs">
+					    <img src="assets/imgs/scene3.jpg" alt="Enchanted Kingdom, Sta. Rosa, Laguna" onclick="myFunction(this);">
+					</div>
+					<div class="columnimgs">
+					    <img src="assets/imgs/scene4.jpg" alt="cat eyes" onclick="myFunction(this);">
+					</div>
+				</div>
+
+				<!-- The expanding image container -->
+				<div class="containerimgs">
+					<!-- Close the image -->
+					<span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+
+					<!-- Expanded image -->
+					<img id="expandedImg" style="width:100%">
+
+					<!-- Image text -->
+					<div id="imgtext"></div>
+				</div>
+			</div>
+		</div>
 	</div>
+</div><br><br>
 </div>
 
 
-
-
 <footer>
-	<div class="container">
-		Portfolio was made using Bootstrap
+	<div class="container" style="padding: 15px;">
+		<div class="row">
+			<div class="col-md-4">
+				<p>Made using <a href="https://getbootstrap.com/" target="_blank" style="text-decoration: underline;">Bootstrap</a>, 
+					<a href="https://fontawesome.com/v4.7.0/" target="_blank" style="text-decoration: underline;">FontAwesome</a></p>
+				<p>Some images are from <a href="https://www.flaticon.com/" target="_blank" style="text-decoration: underline;">flaticon.com</a></p>
+				<p>All rights reserved.</p>
+			</div>
+			<div class="col-md-4">
+				<h4>NAVIGATION</h4>
+				<a href="#sect-aboutme">ABOUT ME</a><br>
+				<a href="#sect-skills">SKILLS</a><br>
+				<a href="#sect-educ">EXPERIENCES</a><br>
+				<a href="#sect-portfolio">PORTFOLIO</a><br>
+			</div>
+			<div class="col-md-4">
+				<h4>SOCIAL LINKS</h4>
+				<div style="padding: 10px">
+				    <a href="https://www.linkedin.com/in/rmlimpin/" target="_blank" data-toggle="tooltip" data-placement="bottom" title="LinkedIn"><i class="fa fa-linkedin-square fa-3x"></i></a>&nbsp;&nbsp;
+				    <a href="https://github.com/RMLimpin" target="_blank" data-toggle="tooltip" data-placement="bottom" title="GitHub"><i class="fa fa-github-square fa-3x"></i></a>&nbsp;&nbsp;
+				    <a href="mailto:ronel.limpin@gmail.com" target="_blank" data-toggle="tooltip" data-placement="bottom" title="Send me an email"><i class="fa fa-envelope fa-3x"></i></a>&nbsp;&nbsp;
+				    <a href="https://drive.google.com/file/d/1rxlnk8BsuKKioocnrM00Pr1sIr9iFSgO/view?usp=sharing" target="_blank" data-toggle="tooltip" data-placement="bottom" title="Download my resume"><i class="fa fa-arrow-circle-down fa-3x"></i></a>
+				</div>
+			</div>
+		</div>
 	</div>
 </footer>
 </body>
