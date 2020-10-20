@@ -14,27 +14,29 @@ $(function () {
     });
 });
 
-function myFunction(imgs) {
+function displayprog(imgs) {
   // Get the expanded image
-  var expandImg = document.getElementById("expandedImg");
+  var expandImg1 = document.getElementById("expandedImg1");
   // Get the image text
-  var imgText = document.getElementById("imgtext");
+  var imgText1 = document.getElementById("imgtext1");
   // Use the same src in the expanded image as the image being clicked on from the grid
-  expandImg.src = imgs.src;
+  expandImg1.src = imgs.src;
   // Use the value of the alt attribute of the clickable image as text inside the expanded image
-  imgText.innerHTML = imgs.alt;
+  imgText1.innerHTML = imgs.alt;
   // Show the container element (hidden with CSS)
-  expandImg.parentElement.style.display = "block";
+  expandImg1.parentElement.style.display = "block";
 }
 
-<!-- Google Analytics -->
-<script>
-(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-ga('create', 'UA-XXXXX-Y', 'auto');
-ga('send', 'pageview');
-</script>
-<!-- End Google Analytics -->
+function displayphotography(imgs) {
+  // Get the expanded image
+  var expandImg2 = document.getElementById("expandedImg2");
+  // Get the image text
+  var imgText2 = document.getElementById("imgtext2");
+  // Use the same src in the expanded image as the image being clicked on from the grid
+  expandImg2.src = imgs.src;
+  // Use the value of the alt attribute of the clickable image as text inside the expanded image
+  imgText2.innerHTML = imgs.alt;
+  // Show the container element (hidden with CSS)
+  expandImg2.parentElement.style.display = "block";
+}
