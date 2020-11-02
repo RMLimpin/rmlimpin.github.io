@@ -40,3 +40,7 @@ function displayphotography(imgs) {
   // Show the container element (hidden with CSS)
   expandImg2.parentElement.style.display = "block";
 }
+
+function animateonscroll(){
+  AOS.init();
+}

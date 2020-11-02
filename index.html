@@ -18,12 +18,14 @@
 	<link rel="stylesheet" href="assets/css/style.css">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 	<script src="assets/js/scripts.js"></script>
 </head>
-<body style="background-color: #f0f0f0;">
+<body style="background-color: #f0f0f0;" onload="animateonscroll();">
 
 <header class="header">
     <nav class="navbar navbar-expand-lg fixed-top" style="padding: 0px 10px 0px 10px;">
@@ -50,19 +52,24 @@
 	    </h1>
 	    <p>Worked as a technical support for 2 years. Now back to where it all began.. coding!</p>
 	    <div style="padding: 10px">
-		    <a href="https://www.linkedin.com/in/rmlimpin/" target="_blank" data-toggle="tooltip" data-placement="bottom" title="LinkedIn"><i class="fa fa-linkedin-square fa-3x"></i></a>&nbsp;&nbsp;
-		    <a href="https://github.com/RMLimpin" target="_blank" data-toggle="tooltip" data-placement="bottom" title="GitHub"><i class="fa fa-github-square fa-3x"></i></a>&nbsp;&nbsp;
-		    <a href="mailto:ronel.limpin@gmail.com" target="_blank" data-toggle="tooltip" data-placement="bottom" title="Send me an email"><i class="fa fa-envelope fa-3x"></i></a>&nbsp;&nbsp;
-		    <a href="assets/resume_rmlimpin2.pdf" target="_blank" data-toggle="tooltip" data-placement="bottom" title="View my resume"><i class="fa fa-arrow-circle-down fa-3x"></i></a>
+		    <a href="https://www.linkedin.com/in/rmlimpin/" target="_blank" data-toggle="tooltip" data-placement="bottom" title="LinkedIn">
+		    	<i class="fa fa-linkedin-square fa-3x"></i></a>&nbsp;&nbsp;
+		    <a href="https://github.com/RMLimpin" target="_blank" data-toggle="tooltip" data-placement="bottom" title="GitHub">
+		    	<i class="fa fa-github-square fa-3x"></i></a>&nbsp;&nbsp;
+		    <a href="mailto:ronel.limpin@gmail.com" target="_blank" data-toggle="tooltip" data-placement="bottom" title="Send me an email">
+		    	<i class="fa fa-envelope fa-3x"></i></a>&nbsp;&nbsp;
+		    <a href="assets/resume_rmlimpin2.pdf" target="_blank" data-toggle="tooltip" data-placement="bottom" title="View my resume">
+		    	<i class="fa fa-arrow-circle-down fa-3x"></i></a>
 		</div>
-		<small>Up-to-date as of: Oct 21, 2020</small>
+		<small>Up-to-date as of: November 2020</small><br><br><br><br><br><br>
+		<a href="#sect-aboutme">Scroll down<br><i class="fa fa-angle-down"></i></a>
 	</div>
 </div>
 
 
 <div class="container-fluid accent" id="sect-aboutme">
-	<div class="container">
-		<h1 class="center"> ABOUT ME </h1>
+	<div class="container" data-aos="fade-up">
+		<h1 class="center" style="font-weight: 500"> ABOUT ME </h1>
 		<h3 class="center">Hey there, this is RONEL LIMPIN.</h3>
 		<p class="center">I have worked as a Technical Support Representative and previously a Sales representative for 2 major telecommunication companies for more than 2 years combined. Working in customer service helped me develop my confidence and my problem solving skill in a small amount of time possible. It was my first job and it made me realize how serious I need to be facing the real world, so I must say it would prepare me for anything to come. <br><br>
 
@@ -70,70 +77,72 @@
 	</div>
 </div>
 
-<div class="container accent">
-	<div id="sect-skills">
-		<h1 class="center"> SKILLS </h1>
-		<center>
-			Currently learning how to..<br>
-			<kbd>WordPress</kbd> <kbd>Javascript</kbd> <kbd>Angular</kbd> <kbd>React.js</kbd><br>
-			<kbd>node.js</kbd> <kbd>Git Bash</kbd><br><br>
-		</center>
-		<div class="row no-gutters">
-			<div class="col-12">
-			  	<div class="card-deck">
-				    <div class="card">
-				    	<center><img src="assets/imgs/flaticon_skill.png" style="width: 30%"></center>
-						<h3 class="center font-weight-bold">TECHNICAL SKILLS</h3>
-						<p class="center">Notable skills that may be useful</p><br>
-						<h4>Computer Skills</h4>
-						<ul>
-							<li>Advance computer knowledge</li>
-							<li>Installing, configuring, and fixing basic problems for hardware, software, and network</li>
-							<li>solid work background as a technical support</li>
-							<li>average typing speed of 60 wpm</li>
-						</ul>
-						<h4>MS Office</h4>
-						<ul>
-							<li>proficiency in Word, PowerPoint, Excel,
-						Access, Visio</li>
-						</ul>
-						<h4>Media Editing tools</h4>
-						<ul>
-							<li>Adobe Photoshop, GIMP, Filmora</li>
-						</ul>
-					</div>
-				    <div class="card">
-				    	<center><img src="assets/imgs/flaticon_code.png" style="width: 30%"></center>
-						<h3 class="center font-weight-bold">PROGRAMMING SKILLS</h3>
-						<p class="center">Programming languages that I know or have familiarity</p><br>
-						<h4>C# Programming</h4>
-						<ul><li>
-							Advance knowledge in C# programming and Windows forms
-						</li></ul>
-						<h4>HTML / CSS (front-end)</h4>
-						<ul><li>
-							HTML/CSS; including frameworks and toolkits like Bootstrap and FontAwesome
-						</li></ul>
-						<h4>PHP (back-end)</h4>
-						<ul><li>
-							Familiarity on CodeIgniter framework and MVC pattern; Javascript & jQuery; WordPress
-						</li></ul>
-						<h4>Database Management</h4>
-						<ul><li>
-							mySQL, Microsoft SQL Server
-						</li></ul>
-						<h4>Programming / IT background in</h4>
-						<ul><li>
-							ASP.net, Java, Android, Cisco networking
-						</li></ul>
-					</div>
-			  </div>
+<div class="div-skills">
+	<div class="container accent">
+		<div id="sect-skills">
+			<h1 class="center" style="color: #fff"> SKILLS </h1>
+			<center style="color: #fff;">
+				Currently learning how to..<br>
+				<kbd>WordPress</kbd> <kbd>Javascript</kbd> <kbd>Angular</kbd> <kbd>React.js</kbd><br>
+				<kbd>node.js</kbd> <kbd>Git Bash</kbd> <kbd>Python</kbd><br><br>
+			</center>
+			<div class="row no-gutters" data-aos="flip-up" data-aos-delay="400">
+				<div class="col-12">
+				  	<div class="card-deck">
+					    <div class="card">
+					    	<center><img src="assets/imgs/flaticon_skill.png" style="width: 30%"></center>
+							<h3 class="center font-weight-bold">TECHNICAL SKILLS</h3>
+							<p class="center">Notable skills that may be useful</p><br>
+							<h4>Computer Skills</h4>
+							<ul>
+								<li>Advance computer knowledge</li>
+								<li>Installing, configuring, and fixing basic problems for hardware, software, and network</li>
+								<li>solid work background as a technical support</li>
+								<li>average typing speed of 60 wpm</li>
+							</ul>
+							<h4>MS Office</h4>
+							<ul>
+								<li>proficiency in Word, PowerPoint, Excel,
+							Access, Visio</li>
+							</ul>
+							<h4>Media Editing tools</h4>
+							<ul>
+								<li>Adobe Photoshop, GIMP, Filmora</li>
+							</ul>
+						</div>
+					    <div class="card">
+					    	<center><img src="assets/imgs/flaticon_code.png" style="width: 30%"></center>
+							<h3 class="center font-weight-bold">PROGRAMMING SKILLS</h3>
+							<p class="center">Programming languages that I know or have familiarity</p><br>
+							<h4>C# Programming</h4>
+							<ul><li>
+								Advance knowledge in C# programming and Windows forms
+							</li></ul>
+							<h4>HTML / CSS (front-end)</h4>
+							<ul><li>
+								HTML/CSS; including frameworks and toolkits like Bootstrap and FontAwesome
+							</li></ul>
+							<h4>PHP (back-end)</h4>
+							<ul><li>
+								Familiarity on CodeIgniter framework and MVC pattern; Javascript & jQuery; WordPress
+							</li></ul>
+							<h4>Database Management</h4>
+							<ul><li>
+								mySQL, Microsoft SQL Server
+							</li></ul>
+							<h4>Programming / IT background in</h4>
+							<ul><li>
+								ASP.net, Java, Android, Cisco networking
+							</li></ul>
+						</div>
+				  </div>
+				</div>
 			</div>
 		</div>
 	</div>
-</div><hr>
+</div>
 
-<div class="container" id="sect-exp">
+<div class="container" id="sect-exp" data-aos="fade-up">
 	<center><h1>EXPERIENCES</h1></center>
 	<div class="row">
 		<div class="col-md-5">
@@ -159,7 +168,7 @@
 							</ul>
 						</div>
 					</li></ul>
-			</div><br><br>
+			</div><br>
 		</div>
 		<div class="col-md-7">
 			<div id="sect-work">
@@ -207,7 +216,7 @@
 </div>
 
 <div style="background-color: #164a8f;">
-	<div id="sect-portfolio">
+	<div id="sect-portfolio" data-aos="fade-up">
 		<div style=" color: #fff">
 		<h1 class="center"> PORTFOLIO</h1>
 			<center>I have 2 favorite hobbies. Coding and photography. Here are some of my favorite projects:<br>
@@ -220,7 +229,7 @@
 				    <div class="card">
 				    	<center><img src="assets/imgs/flaticon_hobby1.png" style="width: 30%"></center>
 						<h3 class="center">CODING</h3>
-						<small>Most of my projects are either part of my college project or stand-alone, so I haven't hosted one yet.</small>
+						<small class="center">Most of my projects are either part of my college project or stand-alone, so I haven't hosted one yet.</small>
 						<div class="rowimgs">
 							<div class="columnimgs">
 							    <img src="assets/imgs/project1.jpg" alt="<b>e-PRACTICUM</b><br>
@@ -255,7 +264,7 @@
 				    <div class="card">
 				    	<center><img src="assets/imgs/flaticon_hobby2.png" style="width: 30%"></center>
 						<h3 class="center">PHOTOGRAPHY</h3>
-						<small>I like photography and editing them.</small>
+						<small class="center">I like photography and editing them.</small>
 						<div class="rowimgs">
 							<div class="columnimgs">
 							    <img src="assets/imgs/scene1.jpg" alt="Baguio City scenery 1" onclick="displayphotography(this);">
@@ -313,7 +322,9 @@
 			</div>
 			<div class="col-md-4">
 				<p>Made using <a href="https://getbootstrap.com/" target="_blank" style="text-decoration: underline;">Bootstrap</a>, 
-					<a href="https://fontawesome.com/v4.7.0/" target="_blank" style="text-decoration: underline;">FontAwesome</a></p>
+					<a href="https://fontawesome.com/v4.7.0/" target="_blank" style="text-decoration: underline;">FontAwesome</a>,
+					<a href="https://michalsnik.github.io/aos/" target="_blank" style="text-decoration: underline;">AOS library</a>
+				</p>
 				<p><div>Icons made by <a href="http://www.freepik.com/" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div></p>
 				<p><a href="https://www.linkedin.com/in/rmlimpin/" target="_blank">@rmlimpin</a>. All rights reserved.</p><br>
 			</div>
