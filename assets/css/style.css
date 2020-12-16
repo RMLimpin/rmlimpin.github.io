@@ -51,6 +51,7 @@ a:hover { text-decoration: none !important; }
   text-align: center;
   color: white;
 }
+.heroContents h1 { font-size: 50px; }
 #sect-aboutme {
   padding: 100px;
   background-color: #164a8f;
@@ -82,6 +83,18 @@ a:hover { text-decoration: none !important; }
   padding: 30px;
   font-size: 1em;
   text-orientation: center;
+}
+#sect-contact {
+  padding: 50px 30px 50px 30px;
+  font-size: 1em;
+  text-orientation: center;
+}
+.div-contact i {
+  padding: 10px;
+  box-sizing: border-box;
+}
+.contact-profile {
+  width: 80%;
 }
 .crop-square {
   height: 200px;
@@ -151,6 +164,12 @@ ul.timeline > li:before {
   padding: 15px;
   border-radius: 10px;
 }
+.timelinebox a {
+  color: #fff;
+}
+.timelinebox a:hover {
+  color: #ccc;
+}
 .navbar {
   transition: all 0.4s;
 }
@@ -216,6 +235,15 @@ ul.timeline > li:before {
 /*------------------------------------------*/
 /*mobile view */
 @media only screen and (max-width: 600px) {
+  .heroContents {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+  }
+  .heroContents h1 { font-size: 30px; }
   #sect-aboutme {
     padding: 20px;
     background-color: #164a8f;
@@ -224,10 +252,9 @@ ul.timeline > li:before {
     text-orientation: center;
   }
   #sect-aboutme h1 { padding-top: 30px; }
-  .columnimgs img {
-    opacity: 0.8;
-    object-fit: cover;
-    width:80px;
-    height:80px;
+  .contact-profile {
+    display:block;
+    margin:0 auto;
+    width: 10%;
   }
 }
