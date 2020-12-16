@@ -4,9 +4,7 @@ body, html {
 .center {
   text-align: center;
 }
-small {
-  color: #ccc;
-}
+
 a:hover { text-decoration: none !important; }
 .no-gutters {
   margin-right: 0;
@@ -15,6 +13,24 @@ a:hover { text-decoration: none !important; }
     padding-right: 0;
     padding-left: 0;
   }
+}
+.status-box {
+  margin: 0 0 20px 0;
+  color: #e5e5e5;
+}
+.status-open {
+  height: 10px;
+  width: 10px;
+  background-color: #6ef419;
+  border-radius: 50%;
+  display: inline-block;
+}
+.status-busy {
+  height: 10px;
+  width: 10px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
 }
 .hero-profile {
   width: 50%;
@@ -67,6 +83,14 @@ a:hover { text-decoration: none !important; }
   font-size: 1em;
   text-orientation: center;
 }
+.crop-square {
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
+  padding: 5px;
+  border-radius: 5%;
+}
+
 footer {
   text-align: center;
   background-color: #113B72;
@@ -164,51 +188,6 @@ ul.timeline > li:before {
   .navbar .navbar-brand, .navbar .nav-link {
     color: #FFF;
   }
-}
-/* lightbox */
-/* The grid: Four equal columns that floats next to each other */
-.columnimgs {
-  float: left;
-  width: 25%;
-  padding: 10px;
-}
-/* Style the images inside the grid */
-.columnimgs img {
-  opacity: 0.8;
-  object-fit: cover;
-  width:110px;
-  height:110px;
-}
-.columnimgs img:hover {
-  opacity: 1;
-}
-/* Clear floats after the columns */
-.rowimgs:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-/* The expanding image container (positioning is needed to position the close button and the text) */
-.containerimgs {
-  position: relative;
-  display: none;
-}
-/* Expanding image text */
-#imgtext {
-  position: absolute;
-  bottom: 15px;
-  left: 15px;
-  color: white;
-  font-size: 20px;
-}
-/* Closable button inside the image */
-.closebtn {
-  position: absolute;
-  top: 10px;
-  right: 15px;
-  color: white;
-  font-size: 35px;
-  cursor: pointer;
 }
 
 .pace {
