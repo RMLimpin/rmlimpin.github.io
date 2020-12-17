@@ -1,13 +1,31 @@
 body, html {
   height: 100%;
+  background-image: url('../imgs/bg_body.jpg');
+    background-size: 200px 200px;
+    background-repeat: repeat;
 }
 .center {
   text-align: center;
 }
-small {
-  color: #ccc;
-}
 a:hover { text-decoration: none !important; }
+.status-box {
+  margin: 0 0 20px 0;
+  color: #e5e5e5;
+}
+.status-open {
+  height: 10px;
+  width: 10px;
+  background-color: #6ef419;
+  border-radius: 50%;
+  display: inline-block;
+}
+.status-busy {
+  height: 10px;
+  width: 10px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+}
 .no-gutters {
   margin-right: 0;
   margin-left: 0;
@@ -98,6 +116,9 @@ footer a {
 footer a:hover {
   color: #999;
   text-decoration: none;
+}
+.modal-footer {
+   justify-content: flex-start;
 }
 .accent h4 {
   color: #0070c0;
@@ -195,10 +216,19 @@ ul.timeline > li:before {
     text-orientation: center;
   }
   #sect-aboutme h1 { padding-top: 30px; }
-  .columnimgs img {
-    opacity: 0.8;
-    object-fit: cover;
-    width:80px;
-    height:80px;
+  .heroContents {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+  }
+  .heroContents h1 { font-size: 36px; }
+  .hero-profile { width: 90%; }
+  .contact-profile {
+    display:block;
+    margin:0 auto;
+    width: 10%;
   }
 }
