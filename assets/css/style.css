@@ -1,24 +1,24 @@
 body, html {
   height: 100%;
   background-image: url('../imgs/bg_body.jpg');
-    background-size: 200px 200px;
-    background-repeat: repeat;
+  background-size: 200px 200px;
+  background-repeat: repeat;
+  font-family: 'Roboto';
 }
 .center {
   text-align: center;
 }
 a:hover { text-decoration: none !important; }
-.status-box {
-  margin: 0 0 20px 0;
-  color: #e5e5e5;
-}
 i:hover::before {
   transform: rotate(-20deg);
 }
-
 i:before {
   display: inline-block;
   transition: 0.5s all;
+}
+.status-box {
+  margin: 0 0 20px 0;
+  color: #e5e5e5;
 }
 .status-open {
   height: 10px;
@@ -133,8 +133,8 @@ footer a:hover {
   margin: 0 
 }
 h1 {
-  font-family: Impact;
-  font-weight: 700;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bolder;
 }
 ul {
   padding-left: 20px 
@@ -243,15 +243,15 @@ ul.timeline > li:before {
     width: 10%;
   }
   #sect-skills {
-    padding: 20px;
+    padding: 10px;
     font-size: 1em;
     text-orientation: center;
   }
   .card {
-    padding: 20px;
+    padding: 15px;
   }
   #sect-exp {
-    padding: 10px;
+    padding: 10px 15px 10px 10px;
     font-size: 1em;
     text-orientation: center;
   }

@@ -19,13 +19,15 @@
 	<link rel="stylesheet" href="assets/css/style.css">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+	<link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap" rel="stylesheet">
 	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 	<script src="assets/js/scripts.js"></script>
-	<script src="assets/js/pace.min.js"></script>
+	<script src="assets/js/pacejs/pace.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js" integrity="sha512-Y2IiVZeaBwXG1wSV7f13plqlmFOx8MdjuHyYFVoYzhyRr3nH/NMDjTBSswijzADdNzMyWNetbLMfOpIPl6Cv9g==" crossorigin="anonymous"></script>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css" integrity="sha512-Velp0ebMKjcd9RiCoaHhLXkR1sFoCCWXNp6w4zj1hfMifYB5441C+sKeBl/T/Ka6NjBiRfBBQRaQq65ekYz3UQ==" crossorigin="anonymous" />
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js" integrity="sha512-YibiFIKqwi6sZFfPm5HNHQYemJwFbyyYHjrr3UT+VobMt/YBo1kBxgui5RWc4C3B4RJMYCdCAJkbXHt+irKfSA==" crossorigin="anonymous"></script>
@@ -72,10 +74,10 @@
 	</div>
 
 
-	<div class="container-fluid accent" id="sect-aboutme">
+	<div class="container-fluid" id="sect-aboutme">
 		<div class="container" data-aos="fade-up">
 			<h1 class="center" style="font-weight: 500"> ABOUT ME </h1>
-			<h3 class="center">Hey there, this is RONEL LIMPIN.</h3><br>
+			<h4 class="center">Hey there, this is RONEL LIMPIN.</h4><br>
 			<p class="center">I have worked as a Technical Support Representative and previously a Sales representative for 2 major telecommunication companies for more than 2 years combined. Working in customer service helped me develop my confidence and my problem solving skill in a small amount of time possible. It was my first job and it made me realize how serious I need to be facing the real world, so I must say it would prepare me for anything to come. <br><br>
 
 			I am also open to new opportunities which can help me utilize my IT-related skills. Always calm, focused, and analytical; goal-driven and always making sure to deliver quality results on time; good team player, and able to learn and adapt very quickly. I may not be "the best" coder, but I'm good at finding solutions and making ideas into a possibility by any means. Hey, even the best still needs to use Google and StackOverflow. ;) </p>
@@ -226,7 +228,7 @@
 		<div id="sect-portfolio" data-aos="fade-up">
 			<div style=" color: #fff">
 			<h1 class="center"> PORTFOLIO</h1>
-				<center>I have 2 favorite hobbies. Coding and photography. Here are some of my favorite projects:<br><br>
+				<center>I have 2 professional hobbies. Coding and photography. Here are some of my favorite projects:<br><br>
 			</div>
 			<div class="container">
 				<div class="row no-gutters">
@@ -296,13 +298,29 @@
 				<img class="rounded-circle contact-profile" src="assets/imgs/resume_cropped.jpg" alt="resume_rmlimpin" data-aos="fade-up" style="width: 80%; padding: 0 0 20px 0">
 			</div>
 			<div class="col-md-7" data-aos="zoom-in">
-				<h1>GET IN TOUCH</h1>
-				View my resume or send me a message for job opportunities and other professional inquiries on my GMAIL and LINKEDIN accounts.<br><br>
-				<div class="div-contact">
-					<i class="fa fa-envelope fa-lg"></i> <a href="mailto:ronel.limpin@gmail.com" target="_blank" data-toggle="tooltip" data-placement="bottom" title="Send me an email"> ronel.limpin@gmail.com</a> <br>
-					<i class="fa fa-linkedin-square fa-lg"></i> <a href="https://www.linkedin.com/in/rmlimpin/" target="_blank" data-toggle="tooltip" data-placement="bottom" title="LinkedIn"> LinkedIn account</a> <br>
-					<i class="fa fa-arrow-circle-down fa-lg"></i> <a href="assets/resume_rmlimpin2.pdf" target="_blank" data-toggle="tooltip" data-placement="bottom" title="View my resume"> View my resume</a><br>
-					<i class="fa fa-map-marker fa-lg"></i> Cabuyao, Laguna, Region IV-A, PH <img src="assets/imgs/flaticon_flag.png" style="height: 15px;" data-toggle="tooltip" data-placement="bottom" title="Philippines">
+				<div class="card" data-aos="zoom-in">
+					<h1>GET IN TOUCH</h1>
+					View my resume or send me a message for job opportunities and other professional inquiries on my GMAIL and LINKEDIN accounts.<br><br>
+					<div class="div-contact">
+						<table>
+							<tr>
+								<td><i class="fa fa-envelope fa-lg"></i></td>
+								<td><a href="mailto:ronel.limpin@gmail.com" target="_blank" data-toggle="tooltip" data-placement="bottom" title="Send me an email"> ronel.limpin@gmail.com</a></td>
+							</tr>
+							<tr>
+								<td><i class="fa fa-linkedin-square fa-lg"></i></td>
+								<td><a href="https://www.linkedin.com/in/rmlimpin/" target="_blank" data-toggle="tooltip" data-placement="bottom" title="LinkedIn"> LinkedIn account</a></td>
+							</tr>
+							<tr>
+								<td><i class="fa fa-arrow-circle-down fa-lg"></i></td>
+								<td><a href="assets/resume_rmlimpin2.pdf" target="_blank" data-toggle="tooltip" data-placement="bottom" title="View my resume"> View my resume</a></td>
+							</tr>
+							<tr>
+								<td><i class="fa fa-map-marker fa-lg"></i></td>
+								<td>Cabuyao, Laguna, Region IV-A, PH <img src="assets/imgs/flaticon_flag.png" style="height: 15px;" data-toggle="tooltip" data-placement="bottom" title="Philippines"></td>
+							</tr>
+						</table>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -329,7 +347,7 @@
 				<a href="#sect-contact">CONTACT</a><br><br>
 			</div>
 			<div class="col-md-4">
-				<p><div>Icons made by <a href="http://www.freepik.com/" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div></p>
+				<p><div><small>Icons made by <a href="http://www.freepik.com/" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></small></div></p>
 				<p><a href="https://www.linkedin.com/in/rmlimpin/" target="_blank">@rmlimpin</a>. All rights reserved.</p><br>
 			</div>
 		</div>
