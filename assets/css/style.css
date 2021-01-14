@@ -9,13 +9,6 @@ body, html {
   text-align: center;
 }
 a:hover { text-decoration: none !important; }
-i:hover::before {
-  transform: rotate(-20deg);
-}
-i:before {
-  display: inline-block;
-  transition: 0.5s all;
-}
 .status-box {
   margin: 0 0 20px 0;
   color: #e5e5e5;
@@ -42,9 +35,7 @@ i:before {
     padding-left: 0;
   }
 }
-.hero-profile {
-  width: 50%;
-}
+.hero-profile { width: 50%; }
 .heroImage {
   background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.9)), url("../imgs/scene1.jpg");
   height: 95%;
@@ -60,6 +51,15 @@ i:before {
   transform: translate(-50%, -50%);
   text-align: center;
   color: white;
+}
+.linkdock { padding: 10px; }
+.linkdock i:hover::before {
+  transform: scale(1.5);
+  text-shadow: 4px 4px 8px #000;
+}
+.linkdock i:before {
+  display: inline-block;
+  transition: 0.5s all;
 }
 #sect-aboutme {
   padding: 100px;
@@ -79,9 +79,8 @@ i:before {
   font-size: 1em;
   text-orientation: center;
 }
-.card {
-  padding: 30px;
-}
+.card { padding: 30px; }
+
 #sect-exp {
   padding: 30px;
   font-size: 1em;
@@ -175,6 +174,7 @@ ul.timeline > li:before {
   padding: 15px;
   border-radius: 10px;
 }
+.timelinebox ul { padding-top: 15px; }
 .navbar {
   transition: all 0.4s;
 }
@@ -257,7 +257,7 @@ ul.timeline > li:before {
   }
   #sect-portfolio {
     background-color: #164a8f;
-    padding: 10px;
+    padding: 25px 10px 25px 10px;
     font-size: 1em;
     text-orientation: center;
   }
