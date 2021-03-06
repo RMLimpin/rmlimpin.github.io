@@ -111,6 +111,11 @@ a:hover { text-decoration: none !important; }
   font-size: 1em;
   text-orientation: center;
 }
+#sect-work {
+  width: 100%;
+  height: 550px;
+  overflow: auto;
+}
 #sect-portfolio {
   background-color: #164a8f;
   padding: 30px;
