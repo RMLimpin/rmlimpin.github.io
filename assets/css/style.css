@@ -113,8 +113,21 @@ a:hover { text-decoration: none !important; }
 }
 #sect-work {
   width: 100%;
-  height: 550px;
-  overflow: auto;
+  height: 600px;
+  padding: 0 10px 0 0;
+  overflow: hidden;
+}
+#btn-seemore {
+  border: none;
+  background-color: inherit;
+  font-weight: 700;
+}
+#btn-seemore:hover {
+  color: #164a8f;
+  transition: 0.5s all;
+}
+.timeline-extend {
+  display: none;
 }
 #sect-portfolio {
   background-color: #164a8f;

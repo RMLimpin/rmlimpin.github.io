@@ -1,6 +1,13 @@
 // bootstrap
 $(document).ready(function(){
-	$('[data-toggle="tooltip"]').tooltip();   
+	$('[data-toggle="tooltip"]').tooltip();  
+
+  $("#btn-seemore").on('click', function(){
+    $(".timeline-extend").show();
+    $("#btn-seemore").hide();
+    $("#sect-work").css({"overflow":"auto"});
+    $("#sect-work").css({"height":"720px"});
+  });
 });
 
 // transparent navbar which change opacity when scrolled
@@ -13,6 +20,7 @@ $(function () {
         }
     });
 });
+
 
 function displayprog(imgs) {
   // Get the expanded image
