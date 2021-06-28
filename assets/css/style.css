@@ -58,7 +58,7 @@ a:hover { text-decoration: none !important; }
   box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.5);
 }
 .heroImage {
-  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.9)), url("../imgs/scene6.jpg");
+  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.9)), url("../imgs/scene2.jpg");
   height: 95%;
   background-attachment: fixed;
   background-position: center;
